@@ -1,7 +1,7 @@
 defmodule AshCommanded.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.69"
   @description "CQRS pattern implementation for Ash Framework resources using Commanded"
   @source_url "https://github.com/accountex-org/ash_commanded"
 
