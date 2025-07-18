@@ -39,7 +39,7 @@ defmodule AshCommanded.MixProject do
     [
       {:ash, "~> 3.0"},
       {:sourceror, "~> 1.8", only: [:dev, :test]},
-      {:spark, "~> 2.2"},
+      {:spark, github: "ash-project/spark", branch: "main", override: true},
       {:igniter, "~> 0.5", only: [:dev, :test]},
       {:mock, "~> 0.3.0", only: [:test]},
 
